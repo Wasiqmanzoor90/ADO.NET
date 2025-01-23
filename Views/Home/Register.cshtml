@@ -1,0 +1,46 @@
+﻿@model MVC_Studio.Models.User
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Register" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button> <br />
+
+    <a asp-area="" asp-controller="Home" asp-action="Login">Already User</a>
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage as string))
+    {
+    <div class="alert alert-danger" role="alert">
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+    }
+
+    <!-- Success Message -->
+    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage as string))
+    {
+        <div class="alert alert-success" role="alert">
+            <p>@ViewBag.SuccessMessage</p>
+        </div>
+    }
+
+</form>
