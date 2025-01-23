@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\service\\sqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:service\\sqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\service\\jasontokenservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:service\\jasontokenservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\service\\sqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:service\\sqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\interfaces\\isqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:interfaces\\isqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\interfaces\\ijwtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:interfaces\\ijwtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|c:\\users\\admin\\onedrive\\dotnet projects\\mvc-studio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A52DB49-1A3B-46DC-9BC4-855AEB40F50F}|MVC-Studio.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,67 +55,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T16:50:25.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ISqlService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Interfaces\\ISqlService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISqlService.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Interfaces\\ISqlService.cs",
               "RelativeToolTip": "Interfaces\\ISqlService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T15:44:08.02Z",
+              "WhenOpened": "2025-01-23T15:47:13.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T15:27:17.211Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T11:40:10.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
+              "Title": "JasontokenServicecs.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Service\\JasontokenServicecs.cs",
+              "RelativeDocumentMoniker": "Service\\JasontokenServicecs.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Service\\JasontokenServicecs.cs",
+              "RelativeToolTip": "Service\\JasontokenServicecs.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T14:49:46.248Z",
+              "WhenOpened": "2025-01-23T11:13:51.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SqlService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Service\\SqlService.cs",
               "RelativeDocumentMoniker": "Service\\SqlService.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Service\\SqlService.cs",
               "RelativeToolTip": "Service\\SqlService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T12:52:41.102Z",
+              "WhenOpened": "2025-01-23T10:39:14.463Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T10:23:40.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:23:32.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IJwtoken.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Interfaces\\IJwtoken.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IJwtoken.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Interfaces\\IJwtoken.cs",
+              "RelativeToolTip": "Interfaces\\IJwtoken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T11:11:35.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dotnet projects\\MVC-Studio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T10:32:12.084Z"
             }
           ]
         }

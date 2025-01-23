@@ -12,18 +12,19 @@ namespace MVC_Studio.Service
             _connectionString = configuration.GetConnectionString("ConnectionString") ?? throw new InvalidOperationException("Failed to load connection string");
         }
 
-  
+
 
         public async Task<bool> RegisterUserAsync(string name, string email, string password)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
+                string hashpass = BCrypt.Net.BCrypt.HashPassword(password);
                 string query = "INSERT INTO Users (Name, Email, Password) VALUES (@Name, @Email, @Password)";
                 var commond = new SqlCommand(query, connection);
 
                 commond.Parameters.AddWithValue("@Name", name);
                 commond.Parameters.AddWithValue("@Email", email);
-                commond.Parameters.AddWithValue("@Password", password);
+                commond.Parameters.AddWithValue("@Password", hashpass);
 
                 try
                 {
@@ -70,6 +71,34 @@ namespace MVC_Studio.Service
 
 
 
+        public async Task<int?> GetuserIdByemail(string email)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                string query = "SELECT ID FROM Users WHERE Email = @Email";
+                var commond = new SqlCommand(query, connection);
+                commond.Parameters.AddWithValue("@Email", email);
+
+
+                try
+                {
+
+                    await connection.OpenAsync();
+                    var result = await commond.ExecuteScalarAsync();
+                    return result != null ? (int?)Convert.ToInt32(result) : null;
+
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidOperationException("Error", ex);
+                }
+
+            }
+
+            throw new NotImplementedException();
+        }
+
+
         //Login Service
         public async Task<bool> LoginAsync(string Email, string Password)
         {
@@ -97,7 +126,7 @@ namespace MVC_Studio.Service
                     string storedPassword = result.ToString();
 
                     // If passwords match, return true
-                    return Password == storedPassword; // Plain text comparison (works only for un-hashed passwords)
+                    return BCrypt.Net.BCrypt.Verify(Password, storedPassword);
                 }
                 catch (Exception ex)
                 {

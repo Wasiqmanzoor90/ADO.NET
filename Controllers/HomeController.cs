@@ -6,9 +6,10 @@ using MVC_Studio.Service;
 
 namespace MVC_Studio.Controllers;
 
-    public class HomeController(ISqlService intsql) : Controller
+    public class HomeController(ISqlService intsql, IJwtoken jwtoken) : Controller
     {
         private readonly ISqlService _intsql = intsql;
+    private readonly IJwtoken _jwtoken = jwtoken;
 
     public string errorMessage = "";
     public string successMessage = "";
@@ -103,11 +104,22 @@ public IActionResult Login()
         {
             // Attempt to log in
             bool isLogged = await _intsql.LoginAsync(login.Email, login.Password);
+            int? userid = await _intsql.GetuserIdByemail(login.Email);
 
             if (isLogged)
             {
-                // If login is successful, redirect to a dashboard or another page
+                 
+                string token = _jwtoken.Createtoken(userid.Value, login.Email);
+
+                HttpContext.Response.Cookies.Append("AuthToken", token, new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    Expires = DateTime.UtcNow.AddHours(3)
+                });
+
                 ViewBag.successMessage = "Logged in Successfully";
+              
                 
             }
             else
